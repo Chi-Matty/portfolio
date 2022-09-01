@@ -1,25 +1,524 @@
-/* a minimalist set of CSS resets */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap");
 
-/* default to border-box */
-html {
+* {
   box-sizing: border-box;
-  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  pointer: cursor;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+html {
+  scroll-behavior: smooth;
 }
 
-/* adjust typography defaults */
 body {
-  margin: 1rem;
-  font-family: sans-serif;
-  line-height: 1.5;
+  font-family: "Roboto Slab", serif;
+  background: #fff;
+  color: #000;
 }
 
-/* images and videos max out at full width */
-img,
-video {
+h1,
+h2,
+h3,
+h4 {
+  color: #a88e8a;
+}
+
+/* THE NAVIGATION */
+
+.heading {
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+.bar,
+.close {
+  display: none;
+}
+
+.heading .menu ul {
+  margin-top: 40%;
+}
+
+.heading .menu li {
+  border-bottom: 1px solid #a88e8a;
+  width: 70%;
+  margin: 1rem 1rem;
+  font-size: 15px;
+  text-align: center;
+}
+
+.heading .menu li a {
+  font-weight: 600;
+  color: #000;
+}
+
+li:hover {
+  background: #a88e8a;
+}
+
+main {
+  box-sizing: border-box;
+  width: 90vw;
+  margin: auto 30px;
+}
+
+/* THE LOGO & HOME */
+
+.home {
+  height: 100vh;
+  margin-top: 12rem;
+}
+
+.margin-left {
+  box-sizing: border-box;
+  width: 88vw;
+}
+
+.logo .image {
+  width: 120px;
+  height: 130px;
+  border-radius: 50%;
+  margin-left: 40%;
+}
+
+.title,
+.subtitle,
+.description {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.description {
+  font-size: 14px;
+}
+
+/* THE ABOUT */
+
+.about .about-image {
+  background: #a88e8a;
+  width: 40%;
+  height: 50%;
+  border: 1px solid #a88e8a;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  margin-left: 30%;
+}
+
+.about .about-image img {
+  width: 100%;
   height: auto;
-  max-width: 100%;
+  border-radius: 5px 5px 0 0;
+  transition: 1s ease-out;
+}
+
+.about .about-image:hover img {
+  transform: scale(1.2);
+}
+
+/* THE SKILLS */
+
+.skills {
+  position: relative;
+  margin-top: 50px;
+  z-index: -1;
+}
+
+.my-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 150px;
+  margin-top: 40px;
+}
+
+.percent {
+  opacity: 0.52;
+}
+
+.size {
+  opacity: 0.5;
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+.progress {
+  border: 1px solid #66ddaa;
+  width: 100%;
+  height: 7px;
+}
+
+.html {
+  border: none;
+  background: #66ddaa;
+  height: 5px;
+  width: 97%;
+}
+
+.css {
+  border: none;
+  background: #66ddaa;
+  height: 5px;
+  width: 90%;
+}
+
+.javascript {
+  border: none;
+  background: #66ddaa;
+  height: 5px;
+  width: 80%;
+}
+
+.jquery {
+  border: none;
+  background: #66ddaa;
+  height: 5px;
+  width: 80%;
+}
+
+.react {
+  border: none;
+  background: #66ddaa;
+  height: 5px;
+  width: 50%;
+}
+
+.sql {
+  border: none;
+  background: #66ddaa;
+  height: 5px;
+  width: 65%;
+}
+
+.skills .parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills .child {
+  width: 100px;
+  height: 100px;
+  border: 1px solid none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  padding: 18px 0;
+}
+
+.skills .child span {
+  font-weight: 600;
+  color: #6c4f70;
+}
+
+.item {
+  height: auto;
+  border: 1px solid none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2) /*3px 3px 5px rgba(0,0,0,.5)*/;
+}
+
+.item .description {
+  color: #6c4f70;
+  padding: 30px 0;
+}
+
+.item .subtitle {
+  padding: 10px 0;
+}
+
+/* THE PORTFOLIO */
+
+.portfolio .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio .container .box {
+  width: 30%;
+  height: 40%;
+  border: 1px solid #a88e8a;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.portfolio .container .box img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  transition: 1s ease-out;
+}
+
+.portfolio .container .box:hover img {
+  transform: scale(1.2);
+}
+
+.portfolio .container .box .description {
+  font-weight: 700;
+  color: #a88e8a;
+}
+
+/* THE CONTACT */
+
+.contact {
+  height: 100vh;
+}
+
+.contact .contact-item .subtitle a {
+  color: #a88e8a;
+}
+
+.contact .contact-item .subtitle a:hover {
+  background: #e5e2dc;
+}
+
+.contact .contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact .contact-container .contact-item {
+  width: 100%;
+  height: auto;
+}
+
+.contact form {
+  margin-top: 20px;
+  width: 100%;
+  height: 60vh;
+  border-radius: 5px;
+  background: #a88e8a;
+}
+
+.contact .contact-input {
+  width: 90%;
+  height: 30px;
+  margin: 15px 20px;
+  outline: none;
+  border-color: #a88e8a;
+  border-radius: 3px;
+}
+
+.contact .contact-message {
+  width: 90%;
+  margin: 15px 20px;
+  outline: none;
+  border-color: #a88e8a;
+  border-radius: 3px;
+}
+
+.contact button {
+  text-align: center;
+  font-weight: 700;
+  background: #a88e8a;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  margin: auto 20px;
+  border: 1px solid rgba(225, 225, 225, 0.5);
+  box-shadow: 2px 2px 3px rgba(225, 225, 225, 0.5);
+}
+
+/* THE FOOTER */
+
+.footer {
+  box-sizing: border-box;
+  height: 10vh;
+  margin: 1.2rem 30px 10px 30px;
+}
+
+.footer .icon-container {
+  background: rgba(168, 142, 138, 0.17);
+  width: 100%;
+  height: 70px;
+  border: 1px solid rgba(168, 142, 138, 0.15);
+  border-radius: 5px;
+  backdrop-filter: blur(10px);
+  box-shadow: 2px 2px 5px rgba(168, 142, 138, 0.17);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 8px;
+}
+
+.footer .icon-container .icon-item {
+  background: rgba(168, 142, 138, 0.2);
+  border: 1px solid rgba(168, 142, 138, 0.18);
+  border-radius: 4px;
+  backdrop-filter: blur(10px);
+  box-shadow: 2px 2px 5px rgba(168, 142, 138, 0.25);
+  width: 60px;
+  margin-left: 12px;
+  text-align: center;
+}
+
+.footer .icon-container .icon-item i {
+  color: #fff;
+}
+
+/* FOR MOBILE VIEW */
+
+@media screen and (max-width: 480px) {
+  .bar,
+  .close {
+    display: initial;
+    opacity: 0.5;
+  }
+
+  .close {
+    margin-left: 100px;
+  }
+
+  .heading {
+    background: #fff;
+    width: 8%;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+
+  .heading .menu {
+    background: #fff;
+    width: 30%;
+    height: auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: -30%;
+    bottom: 0;
+    transition: 0.6s ease;
+  }
+
+  .menu.active {
+    left: 0;
+  }
+
+  .heading .menu ul {
+    margin-top: 10rem;
+  }
+
+  .heading .menu li {
+    border-bottom: 1px solid #a88e8a;
+    width: 70%;
+    margin: 2rem 1rem;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .heading .menu li a {
+    font-weight: 600;
+    color: #000;
+  }
+
+  .home {
+    height: 100vh;
+    margin-top: 15rem;
+  }
+
+  .logo .image {
+    width: 120px;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: 120px;
+  }
+}
+
+/* FOR BIGGER SCREEN VIEW */
+
+@media screen and (min-width: 560px) {
+  .heading {
+    box-sizing: border-box;
+    width: 100vw;
+  }
+
+  .heading .menu {
+    background: #fff;
+    width: 20%;
+    height: auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+  .margin-left {
+    width: 68%;
+    margin-left: 200px;
+  }
+
+  .home {
+    margin-bottom: 4rem;
+  }
+
+  .services .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .services .container .item {
+    width: 45%;
+    height: 30%;
+  }
+
+  .portfolio .container .box {
+    width: 20%;
+    height: 30%;
+  }
+
+  .contact .contact-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .contact .contact-container .contact-item {
+    width: 50%;
+    height: auto;
+  }
+
+  .contact form {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact .contact-input {
+    margin: 7px 14px;
+  }
+
+  .contact .contact-message {
+    margin: 7px 14px;
+  }
+
+  .contact button {
+    margin: 7px 14px;
+  }
+
+  .footer {
+    box-sizing: border-box;
+    height: 30vh;
+    margin-top: 10rem;
+    /*margin-right: 220px;*/
+    margin-bottom: 1.5rem;
+  }
+
+  .footer .icon-container {
+    margin-left: 90px;
+    width: 90%;
+  }
+
+  .footer .icon-container .icon-item {
+    margin-left: 24px;
+  }
 }
