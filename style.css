@@ -389,16 +389,22 @@ footer .right p {
   }
 
   .close {
+    background: rgba(0,0,0,0.1);
     margin-left: 100px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid transparent;
+    border-radius: 50%;
   }
 
   .heading {
-    background: #fff;
-    width: 8%;
+    background: rgba(255,255,255,0.1);
     position: sticky;
     top: 0;
     left: 0;
     z-index: 99;
+    width: 35px;
+    height
   }
 
   .heading .menu {
@@ -538,7 +544,51 @@ footer .right p {
   .footer .icon-container .icon-item {
     margin-left: 24px;
   }
+
+  #container {
+    transform: translateX(-200%);
+  }
 }
+
+/* APPEARANCE (LIGHT & DARK MODE) */
+
+#container {
+  background: rgba(168, 142, 138, 0.17);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(168, 142, 138, 0.12);
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px rgba(168, 142, 138, 0.1);
+  width: 45px;
+  height: 45px;
+  margin-top: 2rem;
+  margin-left: 19rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container #btn {
+  background: rgba(168, 142, 138, 0.17);
+  color: #ffffff;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(168, 142, 138, 0.12);
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px rgba(168, 142, 138, 0.1);
+  width: 30px;
+  height: 30px;
+}
+
+#container #btn i {
+  font-size: 18px;
+}
+
+.appearance {
+  background: black;
+  color: white;
+  transition: all 2s ease-in-out 0.4s;
+}
+
+/* SCROLL ACTION */
 
 .first-scroll,
 .second-scroll,
