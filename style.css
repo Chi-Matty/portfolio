@@ -11,12 +11,14 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Roboto Slab", serif;
   background: #fff;
   color: #000;
+  overflow-x: hidden;
 }
 
 .margin-left {
@@ -404,7 +406,9 @@ footer .right p {
     left: 0;
     z-index: 99;
     width: 35px;
-    height
+    height: 35px;
+    border: 1px solid transparent;
+    border-radius: 50%;
   }
 
   .heading .menu {

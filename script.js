@@ -7,6 +7,16 @@ bar.addEventListener("click", () => {
 close.addEventListener("click", () => {
   menu.classList.remove("active");
 });
+
+// THE APPEARANCE (LIGHT & DARK MODE)
+let btn = document.getElementById('btn');
+btn.addEventListener('click', ()=>{
+  if(btn !== false){
+    document.body.classList.toggle('appearance');
+}
+});
+
+// FORM VALIDATION
 const form = document.querySelector("#form");
 const name = document.querySelector('input[type="text"]');
 const email = document.querySelector('input[type="email"]');
@@ -19,6 +29,7 @@ form.addEventListener("submit", function (e) {
   message.value = "";
 });
 
+// SCROLL VIEW
 window.addEventListener("scroll", () => {
   let content = document.querySelector(".first-scroll");
   let contentPosition = content.getBoundingClientRect().top;
