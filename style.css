@@ -548,6 +548,10 @@ footer .right p {
   .footer .icon-container .icon-item {
     margin-left: 24px;
   }
+  
+  footer .right {
+transform: translateX(60px);
+}
 
   #container {
     transform: translateX(-200%);
