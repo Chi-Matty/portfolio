@@ -18,6 +18,7 @@ body {
   font-family: "Roboto Slab", serif;
   background: #fff;
   color: #000;
+  transition: all 2s ease-in-out 0.4s;
   overflow-x: hidden;
 }
 
@@ -391,7 +392,7 @@ footer .right p {
   }
 
   .close {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
     margin-left: 100px;
     width: 5px;
     height: 5px;
@@ -400,7 +401,7 @@ footer .right p {
   }
 
   .heading {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     position: sticky;
     top: 0;
     left: 0;
@@ -548,10 +549,10 @@ footer .right p {
   .footer .icon-container .icon-item {
     margin-left: 24px;
   }
-  
+
   footer .right {
-transform: translateX(60px);
-}
+    transform: translateX(60px);
+  }
 
   #container {
     transform: translateX(-200%);

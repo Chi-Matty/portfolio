@@ -9,11 +9,11 @@ close.addEventListener("click", () => {
 });
 
 // THE APPEARANCE (LIGHT & DARK MODE)
-let btn = document.getElementById('btn');
-btn.addEventListener('click', ()=>{
-  if(btn !== false){
-    document.body.classList.toggle('appearance');
-}
+let btn = document.getElementById("btn");
+btn.addEventListener("click", () => {
+  if (btn !== false) {
+    document.body.classList.toggle("appearance");
+  }
 });
 
 // FORM VALIDATION
@@ -33,7 +33,7 @@ form.addEventListener("submit", function (e) {
 window.addEventListener("scroll", () => {
   let content = document.querySelector(".first-scroll");
   let contentPosition = content.getBoundingClientRect().top;
-  contentScreen = window.innerHeight / 0.9;
+  let contentScreen = window.innerHeight / 0.9;
   if (contentPosition < contentScreen) {
     content.classList.add("scroll");
   } else {
@@ -44,7 +44,7 @@ window.addEventListener("scroll", () => {
 window.addEventListener("scroll", () => {
   let content = document.querySelector(".second-scroll");
   let contentPosition = content.getBoundingClientRect().top;
-  contentScreen = window.innerHeight / 0.9;
+  let contentScreen = window.innerHeight / 0.9;
   if (contentPosition < contentScreen) {
     content.classList.add("scroll");
   } else {
@@ -55,7 +55,7 @@ window.addEventListener("scroll", () => {
 window.addEventListener("scroll", () => {
   let content = document.querySelector(".third-scroll");
   let contentPosition = content.getBoundingClientRect().top;
-  contentScreen = window.innerHeight / 0.9;
+  let contentScreen = window.innerHeight / 0.9;
   if (contentPosition < contentScreen) {
     content.classList.add("scroll");
   } else {
@@ -66,7 +66,7 @@ window.addEventListener("scroll", () => {
 window.addEventListener("scroll", () => {
   let content = document.querySelector(".fourth-scroll");
   let contentPosition = content.getBoundingClientRect().top;
-  contentScreen = window.innerHeight / 1.1;
+  let contentScreen = window.innerHeight / 1.1;
   if (contentPosition < contentScreen) {
     content.classList.add("for-scroll");
   } else {
@@ -77,7 +77,7 @@ window.addEventListener("scroll", () => {
 window.addEventListener("scroll", () => {
   let content = document.querySelector(".fifth-scroll");
   let contentPosition = content.getBoundingClientRect().top;
-  contentScreen = window.innerHeight / 0.9;
+  let contentScreen = window.innerHeight / 0.9;
   if (contentPosition < contentScreen) {
     content.classList.add("scroll");
   } else {
@@ -88,7 +88,7 @@ window.addEventListener("scroll", () => {
 window.addEventListener("scroll", () => {
   let content = document.querySelector(".sixth-scroll");
   let contentPosition = content.getBoundingClientRect().top;
-  contentScreen = window.innerHeight / 0.9;
+  let contentScreen = window.innerHeight / 0.9;
   if (contentPosition < contentScreen) {
     content.classList.add("scroll");
   } else {
