@@ -8,14 +8,6 @@ close.addEventListener("click", () => {
   menu.classList.remove("active");
 });
 
-// THE APPEARANCE (LIGHT & DARK MODE)
-let btn = document.getElementById("btn");
-btn.addEventListener("click", () => {
-  if (btn !== false) {
-    document.body.classList.toggle("appearance");
-  }
-});
-
 // FORM VALIDATION
 const form = document.querySelector("#form");
 const name = document.querySelector('input[type="text"]');
