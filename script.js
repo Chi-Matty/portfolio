@@ -8,19 +8,6 @@ close.addEventListener("click", () => {
   menu.classList.remove("active");
 });
 
-// FORM VALIDATION
-const form = document.querySelector("#form");
-const name = document.querySelector('input[type="text"]');
-const email = document.querySelector('input[type="email"]');
-const message = document.querySelector("#contact-message");
-form.addEventListener("submit", function (e) {
-  e.preventDefault();
-  alert("Project Submitted");
-  name.value = "";
-  email.value = "";
-  message.value = "";
-});
-
 // SCROLL VIEW
 window.addEventListener("scroll", () => {
   let content = document.querySelector(".first-scroll");
