@@ -281,23 +281,19 @@ main {
 
 /* THE CONTACT */
 
-.contact .contact-item a:hover {
-  background: #ffffff;
-}
-
 .contact .contact-item .subtitle a {
-  color: #a88e8a;
-  font-size: 12px;
+  color: #000;
+  font-size: 17px;
 }
 
 .contact .contact-item .subtitle {
-  color: #a88e8a;
-  font-size: 12px;
+  color: #000;
+  font-size: 17px;
   cursor: pointer;
 }
 
 .contact .contact-item .subtitle a:hover {
-  background: #e5e2dc;
+  background: #a88e8a;
 }
 
 .contact .contact-item {
@@ -413,6 +409,14 @@ footer .icon-container .icon-item i {
     margin-left: 30%;
   }
 
+  .contact .contact-item .subtitle a {
+    font-size: 12px;
+  }
+
+  .contact .contact-item .subtitle {
+    font-size: 12px;
+  }
+
   footer {
     margin-left: 3%;
   }
@@ -482,14 +486,6 @@ footer .icon-container .icon-item i {
   .portfolio .container .box {
     width: 20%;
     height: 30%;
-  }
-
-  .contact .contact-item .subtitle a {
-    font-size: 7px;
-  }
-
-  .contact .contact-item .subtitle {
-    font-size: 7px;
   }
 }
 
