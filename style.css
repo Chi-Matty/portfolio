@@ -48,13 +48,13 @@ h4 {
 }
 
 .heading .menu ul {
-  margin-top: 40%;
+  margin-top: 30rem;
 }
 
 .heading .menu li {
   border-bottom: 1px solid #a88e8a;
   width: 70%;
-  margin: 1rem 1rem;
+  margin: 5rem 1rem;
   font-size: 15px;
   text-align: center;
 }
