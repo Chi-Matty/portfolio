@@ -281,6 +281,10 @@ main {
 
 /* THE CONTACT */
 
+.contact .contact-item a:hover {
+  background: #ffffff;
+}
+
 .contact .contact-item .subtitle a {
   color: #a88e8a;
   font-size: 12px;
