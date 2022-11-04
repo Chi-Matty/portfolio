@@ -317,7 +317,6 @@ footer .icon-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-left: 20%;
   margin-left: 8%;
 }
 
@@ -327,16 +326,12 @@ footer .icon-container .icon-item {
   border-radius: 4px;
   backdrop-filter: blur(10px);
   box-shadow: 2px 2px 5px rgba(168, 142, 138, 0.25);
-  width: 45px;
+  width: 10%;
   text-align: center;
 }
 
 footer .icon-container .icon-item i {
   color: #fff;
-}
-
-footer .right .description {
-  font-size: 13px;
 }
 
 /*FOR MOBILE VIEW*/
@@ -420,10 +415,13 @@ footer .right .description {
     border-radius: 5px;
     backdrop-filter: blur(10px);
     box-shadow: 2px 2px 5px rgba(168, 142, 138, 0.17);
-    display: grid;
+    /*display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    gap: 8px;
+    gap: 8px;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
   footer .icon-container .icon-item {
@@ -432,10 +430,6 @@ footer .right .description {
 
   footer .icon-container .icon-item i {
     color: #fff;
-  }
-
-  footer .right .description {
-    font-size: 10px;
   }
 }
 
