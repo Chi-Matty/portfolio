@@ -74,3 +74,7 @@ window.addEventListener("scroll", () => {
     content.classList.remove("scroll");
   }
 });
+
+window.addEventListener("scroll", () => {
+  menu.classList.remove("active");
+});
