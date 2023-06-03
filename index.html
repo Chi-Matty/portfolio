@@ -7,6 +7,16 @@
       content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"
     />
     <title>My Portfolio</title>
+
+    <!--Bootstrap CDN for CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!--Fontawesome CDN-->
     <script
       src="https://kit.fontawesome.com/4089834b20.js"
       crossorigin="anonymous"
@@ -14,374 +24,381 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="body">
-      <!--section contains navbar-->
+    <!--section contains navbar-->
 
-      <header class="heading">
-        <div class="bar">
-          <i class="fa-solid fa-bars-staggered fa-2x"></i>
+    <header class="heading bg-white px-3">
+      <div class="mylogo">My Portfolio</div>
+      <div class="bar">
+        <i class="fa-solid fa-bars-staggered fa-2x"></i>
+      </div>
+
+      <nav class="menu">
+        <div class="close">
+          <i class="fa-solid fa-xmark fa-2x"></i>
+        </div>
+        <ul>
+          <li class="px-2">
+            <i class="fa-solid fa-house-user"></i>
+            <a class="link" href="#home">Home</a>
+          </li>
+          <li class="px-2">
+            <i class="fa-solid fa-user"></i>
+            <a class="link" href="#about">About</a>
+          </li>
+          <li class="px-2">
+            <i class="fa-solid fa-user-gear"></i>
+            <a class="link" href="#skills">Skills</a>
+          </li>
+          <li class="px-2">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <a class="link" href="#services">Services</a>
+          </li>
+          <li class="px-2">
+            <i class="fa-solid fa-briefcase"></i>
+            <a class="link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="px-2">
+            <i class="fa-solid fa-paper-plane"></i>
+            <a class="link" href="#contact">Contact</a>
+          </li>
+          <li class="px-2">
+            <i class="fa-solid fa-download"></i>
+            <a
+              style="font-size: 11px"
+              class="link"
+              href="https://docs.google.com/document/d/1uckkWada5DuV8crSEqIR7LhVHWTy9ysT9H8YXeFTdT8/edit"
+              >Download CV</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- THE HOME -->
+
+      <section class="home bg-white mx-auto mt-5 mb-3 px-3 py-3" id="home">
+        <div class="logo">
+          <img
+            class="image"
+            src="https://dl.dropbox.com/s/bedimkai4fr17ze/Photo%20Feb%2008%2C%202%2035%2043%20PM.jpg?dl=0"
+            alt="michael"
+          />
         </div>
 
-        <nav class="menu">
-          <div class="close">
-            <i class="fa-solid fa-xmark fa-2x"></i>
-          </div>
-          <ul>
-            <li>
-              <i class="fa-solid fa-house-user"></i>
-              <a class="link" href="#home">Home</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-user"></i>
-              <a class="link" href="#about">About</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-user-gear"></i>
-              <a class="link" href="#skills">Skills</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-screwdriver-wrench"></i>
-              <a class="link" href="#services">Services</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-briefcase"></i>
-              <a class="link" href="#portfolio">Portfolio</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-paper-plane"></i>
-              <a class="link" href="#contact">Contact</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-download"></i>
-              <a
-                style="font-size: 11px"
-                class="link"
-                href="https://docs.google.com/document/d/1uckkWada5DuV8crSEqIR7LhVHWTy9ysT9H8YXeFTdT8/edit"
-                >Download CV</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </header>
+        <div class="data">
+          <h1 class="title">Hi, I'm Michael</h1>
 
-      <main>
-        <!-- THE HOME -->
-
-        <section class="home margin-left" id="home">
-          <div class="logo">
-            <img
-              class="image"
-              src="https://dl.dropbox.com/s/bedimkai4fr17ze/Photo%20Feb%2008%2C%202%2035%2043%20PM.jpg?dl=0"
-              alt="michael"
-            />
-          </div>
-
-          <div class="data">
-            <h1 class="title">Hi, I'm Michael</h1>
-
-            <h3 class="subtitle">Front-end Developer</h3>
-            <p class="description first-scroll">
-              A self taught developer inspired by my enthusiasm in how things
-              work behind the scenes, which led to my journey into learning Web
-              Development. I have active listening skills, the ability to
-              collaborate and a positive attitude.
-            </p>
-          </div>
-        </section>
-
-        <!--About me-->
-
-        <section class="about margin-left" id="about">
-          <h1 class="title">About Me</h1>
-          <div class="about-image">
-            <img
-              src="https://dl.dropbox.com/s/as8f9ybyboqgbdh/projects-2.jpg?dl=0"
-              alt="michael"
-            />
-          </div>
-          <p class="description second-scroll">
-            Front-End Developer with a critical thinking ability and instinct
-            for design. I make the website more interactive by designing
-            user-interfaces and navigation menu, building reuseable codes and
-            ensuring websites is optimized and responsive for all users,
-            regardless of their device. I’m optimistic and always on the look
-            out for an opportunity to use my skills and solving everyday
-            problems with JavaScript. Passionate about going the extra mile to
-            ensure the customer is indubitably satisfied. I also collaborate
-            effectively while spending extra time to be mentored, while making a
-            momentous benefaction to the growth of the company. I love swimming,
-            politics, indoor games, to name a few.
+          <h3 class="subtitle">Front-end Developer</h3>
+          <p class="description first-scroll">
+            A self taught developer inspired by my enthusiasm in how things work
+            behind the scenes, which led to my journey into learning Web
+            Development. I have active listening skills, the ability to
+            collaborate and a positive attitude.
           </p>
-        </section>
+        </div>
+      </section>
 
-        <!--My Skills-->
+      <!--About me-->
 
-        <section class="skills margin-left" id="skills">
-          <h1 class="title">My Skills</h1>
-          <h3 class="subtitle">My Technical Skills</h3>
-          <div class="third-scroll">
-            <div class="my-skills">
-              <p class="size">HTML <i class="fa-brands fa-html5"></i></p>
+      <section class="about bg-white mx-auto my-3 px-3 py-3" id="about">
+        <h1 class="title">About Me</h1>
+        <div class="about-image">
+          <img
+            src="https://dl.dropbox.com/s/as8f9ybyboqgbdh/projects-2.jpg?dl=0"
+            alt="michael"
+          />
+        </div>
+        <p class="description second-scroll">
+          Front-End Developer with a critical thinking ability and instinct for
+          design. I make the website more interactive by designing
+          user-interfaces and navigation menu, building reuseable codes and
+          ensuring websites is optimized and responsive for all users,
+          regardless of their device. I’m optimistic and always on the look out
+          for an opportunity to use my skills and solving everyday problems with
+          JavaScript. Passionate about going the extra mile to ensure the
+          customer is indubitably satisfied. I also collaborate effectively
+          while spending extra time to be mentored, while making a momentous
+          benefaction to the growth of the company. I love swimming, politics,
+          indoor games, to name a few.
+        </p>
+      </section>
 
-              <p class="percent">97%</p>
-            </div>
+      <!--My Skills-->
 
-            <div class="progress">
-              <div class="html"></div>
-            </div>
+      <section class="skills margin-left" id="skills">
+        <h1 class="title">My Skills</h1>
+        <h3 class="subtitle">My Technical Skills</h3>
+        <div class="third-scroll">
+          <div class="my-skills">
+            <p class="size">HTML <i class="fa-brands fa-html5"></i></p>
 
-            <div class="my-skills">
-              <p class="size">CSS <i class="fa-brands fa-css3"></i></p>
-
-              <p class="percent">90%</p>
-            </div>
-
-            <div class="progress">
-              <div class="css"></div>
-            </div>
-
-            <div class="my-skills">
-              <p class="size">JavaScript <i class="fa-brands fa-js"></i></p>
-
-              <p class="percent">80%</p>
-            </div>
-
-            <div class="progress">
-              <div class="javascript"></div>
-            </div>
-
-            <div class="my-skills">
-              <p class="size">JQuery</p>
-
-              <p class="percent">80%</p>
-            </div>
-
-            <div class="progress">
-              <div class="jquery"></div>
-            </div>
-
-            <div class="my-skills">
-              <p class="size">React <i class="fa-brands fa-react"></i></p>
-
-              <p class="percent">50%</p>
-            </div>
-
-            <div class="progress">
-              <div class="react"></div>
-            </div>
-
-            <div class="my-skills">
-              <p class="size">SQL</p>
-
-              <p class="percent">65%</p>
-            </div>
-            <div class="progress">
-              <div class="sql"></div>
-            </div>
+            <p class="percent">97%</p>
           </div>
 
-          <div class="experience">
-            <h1 class="title">My Experience</h1>
-            <h3 class="subtitle">My Work Experience</h3>
-
-            <div class="parent fourth-scroll">
-              <div class="child description">
-                <span>1+</span><br />
-                years of experience
-              </div>
-
-              <div class="child description">
-                <span>9+</span><br />
-                completed projects
-              </div>
-
-              <div class="child description">
-                <span>3</span><br />
-                Satisfied Customers
-              </div>
-            </div>
+          <div class="progress">
+            <div class="html"></div>
           </div>
-        </section>
 
-        <!--My Services-->
+          <div class="my-skills">
+            <p class="size">CSS <i class="fa-brands fa-css3"></i></p>
 
-        <section class="services margin-left" id="services">
-          <h1 class="title">My Services</h1>
-          <h3 class="subtitle">What I Offer</h3>
-          <div class="container">
-            <div class="item">
-              <p class="description"><i class="fa-solid fa-code fa-2x"></i></p>
-
-              <h4 class="subtitle">Frontend Developement</h4>
-            </div>
-
-            <div class="item">
-              <p class="description">
-                <i class="fa-solid fa-palette fa-2x"></i>
-              </p>
-
-              <h4 class="subtitle">Responsive Web Design</h4>
-            </div>
+            <p class="percent">90%</p>
           </div>
-        </section>
 
-        <!--My Portfolio-->
-
-        <section class="portfolio margin-left" id="portfolio">
-          <h1 class="title">My Portfolio</h1>
-          <h3 class="subtitle">My Recent Projects</h3>
-
-          <div class="container fifth-scroll">
-            <div class="box">
-              <div class="image-project">
-                <img
-                  src="https://dl.dropbox.com/s/m8d6latd0mdysuw/projects-3.jpg?dl=0"
-                  alt="fashion"
-                />
-              </div>
-
-              <p class="description">Fashion Website</p>
-            </div>
-
-            <div class="box">
-              <div class="image-project">
-                <img
-                  src="https://dl.dropbox.com/s/950gzds0no8q9eq/project.jpg?dl=0"
-                  alt=""
-                />
-              </div>
-              <p class="description">Ashabi Gold</p>
-            </div>
-
-            <div class="box">
-              <div class="image-project">
-                <img
-                  src="https://dl.dropbox.com/s/bu1psufaybjshqj/projects-4.jpg?dl=0"
-                  alt="chipper"
-                />
-              </div>
-
-              <p class="description">Chipper Cash Replica</p>
-            </div>
-
-            <div class="box">
-              <div class="image-project">
-                <img
-                  src="https://dl.dropbox.com/s/s1ugnpv85qvpkb9/projects-5.jpg?dl=0"
-                  alt="whatsapp"
-                />
-              </div>
-
-              <p class="description">WhatsApp Replica</p>
-            </div>
-
-            <div class="box">
-              <div class="image-project">
-                <img
-                  src="https://dl.dropbox.com/s/6q6dijwsgs0p6y4/projects-6.jpg?dl=0"
-                  alt="ashabi"
-                />
-              </div>
-
-              <p class="description">Ashabi Gold Website</p>
-            </div>
-
-            <div class="box">
-              <div class="image-project">
-                <img
-                  src="https://dl.dropbox.com/s/hwsanuyr0kc868s/projects-7.jpg?dl=0"
-                  alt="converter"
-                />
-              </div>
-
-              <p class="description">Naira Converter</p>
-            </div>
-
-            <div class="box">
-              <div class="image-project">
-                <img
-                  src="https://dl.dropbox.com/s/hmgbt43dzdurg10/projects-8.jpg?dl=0"
-                  alt="to do list"
-                />
-              </div>
-
-              <p class="description">To-do List</p>
-            </div>
-
-            <div class="box">
-              <div class="image-project">
-                <img
-                  src="https://dl.dropbox.com/s/rq7iv4kt1j1q0gp/projects-9.jpg?dl=0"
-                  alt="like count"
-                />
-              </div>
-
-              <p class="description">Like Count</p>
-            </div>
+          <div class="progress">
+            <div class="css"></div>
           </div>
-        </section>
 
-        <!--My Contact-->
+          <div class="my-skills">
+            <p class="size">JavaScript <i class="fa-brands fa-js"></i></p>
 
-        <section class="contact margin-left" id="contact">
-          <h1 class="title">My Contact</h1>
-          <h3 class="subtitle">Contact Us At</h3>
-          <div class="contact-container">
-            <div class="contact-item">
-              <h4 class="subtitle">
-                <i class="fa-solid fa-envelope"></i>
-                <a href="mailto:mathiasmichael2@gmail.com">
-                  mathiasmichael2@gmail.com</a
-                >
-              </h4>
-              <h4 class="subtitle">
-                <i class="fa-solid fa-phone"></i>
-                <a href="tel:+2348179635309">+234 817 963 5309</a>
-              </h4>
-              <h4 class="subtitle">
-                <i class="fa-solid fa-phone"></i>
-                <a href="tel:+2349121461656">+234 912 146 1656</a>
-              </h4>
-              <h4 class="subtitle">
-                <i class="fa-solid fa-location-dot"></i>
-                <a href=""> Lagos, Nigeria </a>
-              </h4>
-              <h4 class="subtitle">
-                <i class="fa-brands fa-linkedin"></i>
-                <a href="https://www.linkedin.com/in/michael-matty">LinkenIn</a>
-              </h4>
-            </div>
+            <p class="percent">80%</p>
           </div>
-        </section>
-      </main>
 
-      <!--Footer-->
+          <div class="progress">
+            <div class="javascript"></div>
+          </div>
 
-      <footer class="margin-left">
-        <div class="icon-container">
-          <div class="icon-item sixth-scroll">
-            <a href="https://www.facebook.com/Mykel830"
-              ><i class="fa-brands fa-facebook-f fa-2x"></i
-            ></a>
+          <div class="my-skills">
+            <p class="size">JQuery</p>
+
+            <p class="percent">80%</p>
           </div>
-          <div class="icon-item">
-            <a href="https://twitter.com/michael_matty?s=20"
-              ><i class="fa-brands fa-twitter fa-2x"></i
-            ></a>
+
+          <div class="progress">
+            <div class="jquery"></div>
           </div>
-          <div class="icon-item">
-            <a href="https://www.linkedin.com/in/michael-matty"
-              ><i class="fa-brands fa-linkedin fa-2x"></i
-            ></a>
+
+          <div class="my-skills">
+            <p class="size">React <i class="fa-brands fa-react"></i></p>
+
+            <p class="percent">50%</p>
           </div>
-          <div class="icon-item">
-            <a href="https://wa.me/2348179635309"
-              ><i class="fa-brands fa-whatsapp fa-2x"> </i
-            ></a>
+
+          <div class="progress">
+            <div class="react"></div>
+          </div>
+
+          <div class="my-skills">
+            <p class="size">SQL</p>
+
+            <p class="percent">65%</p>
+          </div>
+          <div class="progress">
+            <div class="sql"></div>
           </div>
         </div>
-      </footer>
-    </div>
+
+        <div class="experience">
+          <h1 class="title">My Experience</h1>
+          <h3 class="subtitle">My Work Experience</h3>
+
+          <div class="parent fourth-scroll">
+            <div class="child description">
+              <span>1+</span><br />
+              years of experience
+            </div>
+
+            <div class="child description">
+              <span>9+</span><br />
+              completed projects
+            </div>
+
+            <div class="child description">
+              <span>3</span><br />
+              Satisfied Customers
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--My Services-->
+
+      <section class="services margin-left" id="services">
+        <h1 class="title">My Services</h1>
+        <h3 class="subtitle">What I Offer</h3>
+        <div class="container">
+          <div class="item">
+            <p class="description"><i class="fa-solid fa-code fa-2x"></i></p>
+
+            <h4 class="subtitle">Frontend Developement</h4>
+          </div>
+
+          <div class="item">
+            <p class="description">
+              <i class="fa-solid fa-palette fa-2x"></i>
+            </p>
+
+            <h4 class="subtitle">Responsive Web Design</h4>
+          </div>
+        </div>
+      </section>
+
+      <!--My Portfolio-->
+
+      <section class="portfolio margin-left" id="portfolio">
+        <h1 class="title">My Portfolio</h1>
+        <h3 class="subtitle">My Recent Projects</h3>
+
+        <div class="container fifth-scroll">
+          <div class="box">
+            <div class="image-project">
+              <img
+                src="https://dl.dropbox.com/s/m8d6latd0mdysuw/projects-3.jpg?dl=0"
+                alt="fashion"
+              />
+            </div>
+
+            <p class="description">Fashion Website</p>
+          </div>
+
+          <div class="box">
+            <div class="image-project">
+              <img
+                src="https://dl.dropbox.com/s/950gzds0no8q9eq/project.jpg?dl=0"
+                alt=""
+              />
+            </div>
+            <p class="description">Ashabi Gold</p>
+          </div>
+
+          <div class="box">
+            <div class="image-project">
+              <img
+                src="https://dl.dropbox.com/s/bu1psufaybjshqj/projects-4.jpg?dl=0"
+                alt="chipper"
+              />
+            </div>
+
+            <p class="description">Chipper Cash Replica</p>
+          </div>
+
+          <div class="box">
+            <div class="image-project">
+              <img
+                src="https://dl.dropbox.com/s/s1ugnpv85qvpkb9/projects-5.jpg?dl=0"
+                alt="whatsapp"
+              />
+            </div>
+
+            <p class="description">WhatsApp Replica</p>
+          </div>
+
+          <div class="box">
+            <div class="image-project">
+              <img
+                src="https://dl.dropbox.com/s/6q6dijwsgs0p6y4/projects-6.jpg?dl=0"
+                alt="ashabi"
+              />
+            </div>
+
+            <p class="description">Ashabi Gold Website</p>
+          </div>
+
+          <div class="box">
+            <div class="image-project">
+              <img
+                src="https://dl.dropbox.com/s/hwsanuyr0kc868s/projects-7.jpg?dl=0"
+                alt="converter"
+              />
+            </div>
+
+            <p class="description">Naira Converter</p>
+          </div>
+
+          <div class="box">
+            <div class="image-project">
+              <img
+                src="https://dl.dropbox.com/s/hmgbt43dzdurg10/projects-8.jpg?dl=0"
+                alt="to do list"
+              />
+            </div>
+
+            <p class="description">To-do List</p>
+          </div>
+
+          <div class="box">
+            <div class="image-project">
+              <img
+                src="https://dl.dropbox.com/s/rq7iv4kt1j1q0gp/projects-9.jpg?dl=0"
+                alt="like count"
+              />
+            </div>
+
+            <p class="description">Like Count</p>
+          </div>
+        </div>
+      </section>
+
+      <!--My Contact-->
+
+      <section class="contact margin-left" id="contact">
+        <h1 class="title">My Contact</h1>
+        <h3 class="subtitle">Contact Us At</h3>
+        <div class="contact-container">
+          <div class="contact-item">
+            <h4 class="subtitle">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:mathiasmichael2@gmail.com">
+                mathiasmichael2@gmail.com</a
+              >
+            </h4>
+            <h4 class="subtitle">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+2348179635309">+234 817 963 5309</a>
+            </h4>
+            <h4 class="subtitle">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+2349121461656">+234 912 146 1656</a>
+            </h4>
+            <h4 class="subtitle">
+              <i class="fa-solid fa-location-dot"></i>
+              <a href=""> Lagos, Nigeria </a>
+            </h4>
+            <h4 class="subtitle">
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/michael-matty">LinkenIn</a>
+            </h4>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+
+    <footer class="margin-left">
+      <div class="icon-container">
+        <div class="icon-item sixth-scroll">
+          <a href="https://www.facebook.com/Mykel830"
+            ><i class="fa-brands fa-facebook-f fa-2x"></i
+          ></a>
+        </div>
+        <div class="icon-item">
+          <a href="https://twitter.com/michael_matty?s=20"
+            ><i class="fa-brands fa-twitter fa-2x"></i
+          ></a>
+        </div>
+        <div class="icon-item">
+          <a href="https://www.linkedin.com/in/michael-matty"
+            ><i class="fa-brands fa-linkedin fa-2x"></i
+          ></a>
+        </div>
+        <div class="icon-item">
+          <a href="https://wa.me/2348179635309"
+            ><i class="fa-brands fa-whatsapp fa-2x"> </i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!--Bootstrap CDN for JavaScript-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
     <script src="script.js"></script>
   </body>
 </html>
