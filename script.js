@@ -65,16 +65,5 @@ window.addEventListener("scroll", () => {
 });
 
 window.addEventListener("scroll", () => {
-  let content = document.querySelector(".sixth-scroll");
-  let contentPosition = content.getBoundingClientRect().top;
-  let contentScreen = window.innerHeight / 0.9;
-  if (contentPosition < contentScreen) {
-    content.classList.add("scroll");
-  } else {
-    content.classList.remove("scroll");
-  }
-});
-
-window.addEventListener("scroll", () => {
   menu.classList.remove("active");
 });
