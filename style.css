@@ -341,36 +341,13 @@ footer .icon-container .icon-item i {
   }
 
   .menu.active {
-    left: 0;
-  }
-
-  .heading .menu ul {
-    margin: 5rem auto;
-  }
-
-  .heading .menu li {
-    border-bottom: 1px solid #a88e8a;
-    width: 70%;
-    margin: 2rem auto;
-    font-size: 15px;
+    right: 0;
   }
 
   .heading .menu li a {
     font-weight: 600;
     color: #000;
-  }
-
-  .home {
-    height: 100vh;
-    position: relative;
-    bottom: -20vh;
-  }
-
-  .logo .image {
-    width: 120px;
-    height: 130px;
-    border-radius: 50%;
-    margin-left: 30%;
+    text-decoration: underline;
   }
 
   .contact .contact-item .subtitle a {
@@ -380,75 +357,25 @@ footer .icon-container .icon-item i {
   .contact .contact-item .subtitle {
     font-size: 12px;
   }
-
-  footer {
-    margin-left: 3%;
-  }
-
-  footer .icon-container {
-    background: rgba(168, 142, 138, 0.17);
-    width: 100%;
-    height: 60px;
-    border: 1px solid rgba(168, 142, 138, 0.15);
-    border-radius: 5px;
-    backdrop-filter: blur(10px);
-    box-shadow: 2px 2px 5px rgba(168, 142, 138, 0.17);
-    /*display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    gap: 8px;*/
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  footer .icon-container .icon-item {
-    width: 40px;
-  }
-
-  footer .icon-container .icon-item i {
-    color: #fff;
-  }
 }
 
 /* FOR BIGGER SCREEN VIEW */
 
 @media screen and (min-width: 560px) {
-  .heading {
-    box-sizing: border-box;
-    width: 100vw;
+  .heading .menu ul {
+    margin: 10px 0;
   }
 
-  .heading .menu {
-    background: #fff;
-    width: 20%;
-    height: auto;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 99;
+  .heading .menu ul li {
+    display: inline;
   }
 
-  .home {
-    margin-bottom: 4rem;
-  }
-
-  .services .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  .heading .menu li i {
+    display: none;
   }
 
   .services .container .item {
-    width: 45%;
-    height: 30%;
-  }
-
-  .portfolio .container .box {
-    width: 20%;
+    width: 40%;
     height: 30%;
   }
 }
@@ -456,8 +383,7 @@ footer .icon-container .icon-item i {
 .first-scroll,
 .second-scroll,
 .third-scroll,
-.fifth-scroll,
-.sixth-scroll {
+.fifth-scroll {
   opacity: 0;
   transform: scale(0.1);
   transition: all 1s ease-in-out;
