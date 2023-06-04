@@ -209,21 +209,21 @@ header .menu li a:hover {
 
 /*THE SERVICES */
 
-.services{
-width: 90%;
+.services {
+  width: 90%;
 }
 
-.services .container{
-display: flex;
-align-items: center;
-justify-content: center;
-flex-wrap: wrap;
+.services .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.services .container .item{
-border: 1px solid rgba(0,0,0,0.1);
-border-radius: 3px;
-box-shadow: 1px 1px 3px rgba(0,0,0,.2);
+.services .container .item {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .item .description {
@@ -231,11 +231,10 @@ box-shadow: 1px 1px 3px rgba(0,0,0,.2);
   cursor: pointer;
 }
 
-
 /* THE PORTFOLIO */
 
-.portfolio{
-width: 90%;
+.portfolio {
+  width: 90%;
 }
 
 .portfolio .container {
@@ -276,11 +275,13 @@ width: 90%;
 .contact .contact-item .subtitle a {
   color: #000;
   font-size: 17px;
+  font-weight: 700;
 }
 
 .contact .contact-item .subtitle {
   color: #000;
   font-size: 17px;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -289,33 +290,15 @@ width: 90%;
 }
 
 .contact .contact-item {
-  width: 100%;
   line-height: 1px;
 }
 
 /* THE FOOTER */
 
-footer {
-  box-sizing: border-box;
-  margin-left: 5%;
-}
-
 footer .icon-container {
-  background: rgba(168, 142, 138, 0.17);
-  width: 65%;
-  height: 50px;
-  border: 1px solid rgba(168, 142, 138, 0.15);
-  border-radius: 5px;
-  backdrop-filter: blur(10px);
-  box-shadow: 2px 2px 5px rgba(168, 142, 138, 0.17);
-  /*display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  align-items: center;
-  gap: 8px;*/
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
-  margin-left: 8%;
 }
 
 footer .icon-container .icon-item {
@@ -324,8 +307,12 @@ footer .icon-container .icon-item {
   border-radius: 4px;
   backdrop-filter: blur(10px);
   box-shadow: 2px 2px 5px rgba(168, 142, 138, 0.25);
-  width: 10%;
+  width: 22.5%;
+  height: 40px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .icon-container .icon-item i {
@@ -335,35 +322,20 @@ footer .icon-container .icon-item i {
 /*FOR MOBILE VIEW*/
 
 @media screen and (max-width: 560px) {
-  .margin-left {
-    box-sizing: border-box;
-    width: 80vw;
-    transform: translateX(2%);
-  }
-
   .bar,
   .close {
     display: initial;
     opacity: 0.5;
   }
 
-  .heading {
-    background: rgba(255, 255, 255, 0.1);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    z-index: 99;
-  }
-
   .heading .menu {
     background: #ffffff;
-    width: 35%;
-    height: auto;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    width: 45%;
+    height: 65%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
-    left: -35%;
+    right: -70%;
     bottom: 0;
     transition: 0.6s ease;
   }
