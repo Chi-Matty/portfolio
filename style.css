@@ -399,7 +399,8 @@ footer .icon-container .icon-item i {
   transform: scale(1);
 }
 
-.fourth-scroll {
+.fourth-scroll,
+.fifth-scroll {
   opacity: 0;
   transform: translateX(100%);
   transition: all 1s ease;

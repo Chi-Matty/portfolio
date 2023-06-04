@@ -58,9 +58,9 @@ window.addEventListener("scroll", () => {
   let contentPosition = content.getBoundingClientRect().top;
   let contentScreen = window.innerHeight / 0.9;
   if (contentPosition < contentScreen) {
-    content.classList.add("scroll");
+    content.classList.add("for-scroll");
   } else {
-    content.classList.remove("scroll");
+    content.classList.remove("for-scroll");
   }
 });
 
