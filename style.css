@@ -31,17 +31,17 @@ h4 {
 /* THE NAVIGATION */
 
 .heading {
-box-sizing: border-box;
-width: 100vw;
-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-display: flex;
-align-items: center;
-justify-content: space-between;
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-z-index: 999;
+  box-sizing: border-box;
+  width: 100vw;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
 .bar,
@@ -49,30 +49,34 @@ z-index: 999;
   display: none;
 }
 
-.heading .menu li a{
-font-weight: 600;
-color: #000;
-font-size: 12px;
-text-decoration: none;
+.heading .menu li a {
+  font-weight: 600;
+  color: #000;
+  font-size: 12px;
+  text-decoration: none;
 }
 
-header .menu li a:hover{
-background: #a88e8a;
-color: #fff;
+header .menu li a:hover {
+  background: #a88e8a;
+  color: #fff;
 }
-
 
 /* THE LOGO & HOME */
 
 .home {
-width: 90%;
+  width: 90%;
+}
+
+.home .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo .image {
   width: 120px;
   height: 130px;
   border-radius: 50%;
-  margin-left: 45%;
 }
 
 .title,
@@ -89,6 +93,10 @@ width: 90%;
 
 /* THE ABOUT */
 
+.about {
+  width: 90%;
+}
+
 .about .about-image {
   background: #a88e8a;
   width: 40%;
@@ -96,8 +104,6 @@ width: 90%;
   border: 1px solid #a88e8a;
   border-radius: 5px;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-  margin-left: 30%;
-  margin-bottom: 8%;
 }
 
 .about .about-image img {
@@ -114,10 +120,7 @@ width: 90%;
 /* THE SKILLS */
 
 .skills {
-  box-sizing: border-box;
-  position: relative;
-  z-index: -1;
-  cursor: pointer;
+  width: 90%;
 }
 
 .my-skills {
@@ -185,11 +188,6 @@ width: 90%;
   width: 65%;
 }
 
-.skills .experience {
-  margin-top: 5rem;
-  overflow: hidden;
-}
-
 .skills .parent {
   display: flex;
   align-items: center;
@@ -198,12 +196,10 @@ width: 90%;
 }
 
 .skills .child {
-  width: 100px;
-  height: 100px;
-  border: 1px solid none;
+  height: 130px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 3px;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
-  padding: 18px 0;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .skills .child span {
@@ -213,25 +209,34 @@ width: 90%;
 
 /*THE SERVICES */
 
-.item {
-  height: auto;
-  border: 1px solid none;
-  border-radius: 3px;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2) /*3px 3px 5px rgba(0,0,0,.5)*/;
+.services{
+width: 90%;
+}
+
+.services .container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.services .container .item{
+border: 1px solid rgba(0,0,0,0.1);
+border-radius: 3px;
+box-shadow: 1px 1px 3px rgba(0,0,0,.2);
 }
 
 .item .description {
   color: #6c4f70;
-  padding: 30px 0;
   cursor: pointer;
 }
 
-.item .subtitle {
-  padding: 10px 0;
-  cursor: pointer;
-}
 
 /* THE PORTFOLIO */
+
+.portfolio{
+width: 90%;
+}
 
 .portfolio .container {
   display: flex;
