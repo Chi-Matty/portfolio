@@ -31,6 +31,7 @@ h4 {
 /* THE NAVIGATION */
 
 .heading {
+  
   box-sizing: border-box;
   width: 100vw;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
@@ -41,7 +42,7 @@ h4 {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 99;
 }
 
 .bar,
@@ -340,10 +341,11 @@ footer .icon-container .icon-item i {
     position: fixed;
     top: -70%;
     transition: 0.6s ease;
+    z-index: -1;
   }
 
   .menu.active {
-    top: 0;
+    top: 5%;
   }
 
   .heading .menu li a {
