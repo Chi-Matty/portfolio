@@ -31,7 +31,6 @@ h4 {
 /* THE NAVIGATION */
 
 .heading {
-  
   box-sizing: border-box;
   width: 100vw;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
@@ -332,6 +331,10 @@ footer .icon-container .icon-item i {
     display: initial;
     opacity: 0.5;
   }
+  
+  header{
+z-index: 3;
+}
 
   .heading .menu {
     background: #ffffff;
