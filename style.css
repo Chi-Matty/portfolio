@@ -331,10 +331,6 @@ footer .icon-container .icon-item i {
     display: initial;
     opacity: 0.5;
   }
-  
-  header{
-z-index: 3;
-}
 
   .heading .menu {
     background: #ffffff;
