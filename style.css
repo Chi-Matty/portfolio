@@ -327,26 +327,23 @@ footer .icon-container .icon-item i {
 /*FOR MOBILE VIEW*/
 
 @media screen and (max-width: 560px) {
-  .bar,
-  .close {
+  .bar {
     display: initial;
     opacity: 0.5;
   }
 
   .heading .menu {
     background: #ffffff;
-    width: 45%;
-    height: 65%;
+    width: 90%;
+    height: 45%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     position: fixed;
-    top: 0;
-    right: -70%;
-    bottom: 0;
+    top: -70%;
     transition: 0.6s ease;
   }
 
   .menu.active {
-    right: 0;
+    top: 0;
   }
 
   .heading .menu li a {
