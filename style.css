@@ -150,28 +150,28 @@ header .menu li a:hover {
   border: none;
   background: #66ddaa;
   height: 5px;
-  width: 97%;
+  width: 85%;
 }
 
 .css {
   border: none;
   background: #66ddaa;
   height: 5px;
-  width: 90%;
+  width: 79%;
 }
 
 .javascript {
   border: none;
   background: #66ddaa;
   height: 5px;
-  width: 80%;
+  width: 70%;
 }
 
 .jquery {
   border: none;
   background: #66ddaa;
   height: 5px;
-  width: 80%;
+  width: 50%;
 }
 
 .react {
@@ -185,8 +185,40 @@ header .menu li a:hover {
   border: none;
   background: #66ddaa;
   height: 5px;
-  width: 65%;
+  width: 60%;
 }
+
+.projectco {
+  border: none;
+  background: #66ddaa;
+  height: 5px;
+  width: 70%;
+}
+
+.timemanage {
+  border: none;
+  background: #66ddaa;
+  height: 5px;
+  width: 80%;
+}
+
+.communication {
+  border: none;
+  background: #66ddaa;
+  height: 5px;
+  width: 90%;
+}
+
+.teamwork {
+  border: none;
+  background: #66ddaa;
+  height: 5px;
+  width: 85%;
+}
+
+
+
+
 
 .skills .parent {
   display: flex;
