@@ -44,7 +44,8 @@ h4 {
   z-index: 99;
 }
 
-.bar,
+
+/*.bar,
 .close {
   display: none;
 }
@@ -59,12 +60,13 @@ h4 {
 .heading .menu li a:hover {
   background: #a88e8a;
   color: #fff;
-}
+}*/
 
 /* THE LOGO & HOME */
 
 .home {
   width: 90%;
+  padding-top: 55%;
 }
 
 .home .logo {
@@ -362,6 +364,7 @@ footer .icon-container .icon-item i {
 /*FOR MOBILE VIEW*/
 
 @media screen and (max-width: 560px) {
+  /*
   .bar {
     display: initial;
     opacity: 0.5;
@@ -387,7 +390,7 @@ footer .icon-container .icon-item i {
     color: #000;
     text-decoration: underline;
   }
-
+*/
   .contact .contact-item .subtitle a {
     font-size: 12px;
   }
