@@ -167,6 +167,13 @@ header .menu li a:hover {
   width: 70%;
 }
 
+.bootstrap {
+  border: none;
+  background: #66ddaa;
+  height: 5px;
+  width: 68%;
+}
+
 .jquery {
   border: none;
   background: #66ddaa;
