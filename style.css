@@ -243,6 +243,11 @@ h4 {
   color: #6c4f70;
 }
 
+.experience .child i{
+font-size: 28px;
+  opacity: 0.6;
+}
+
 /*THE SERVICES */
 
 .services {
