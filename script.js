@@ -1,8 +1,8 @@
-const bar = document.querySelector(".bar");
+/*const bar = document.querySelector(".bar");
 const menu = document.querySelector(".menu");
 bar.addEventListener("click", () => {
   menu.classList.toggle("active");
-});
+});*/
 
 // SCROLL VIEW
 window.addEventListener("scroll", () => {

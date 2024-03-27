@@ -56,7 +56,7 @@ h4 {
   text-decoration: none;
 }
 
-header .menu li a:hover {
+.heading .menu li a:hover {
   background: #a88e8a;
   color: #fff;
 }
@@ -222,10 +222,6 @@ header .menu li a:hover {
   height: 5px;
   width: 85%;
 }
-
-
-
-
 
 .skills .parent {
   display: flex;
