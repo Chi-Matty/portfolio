@@ -65,10 +65,6 @@ h4 {
 
 .home {
   width: 90%;
-  display: flex;
-  align-itmes: center;
-  justify-content: space-around;
-  height: 90vh;
 }
 
 .home .logo {
@@ -89,6 +85,10 @@ h4 {
   text-align: center;
   margin-top: 20px;
   cursor: pointer;
+}
+
+.home .description{
+width: %;
 }
 
 .description {
