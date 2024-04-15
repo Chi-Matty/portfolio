@@ -1,9 +1,3 @@
-/*const bar = document.querySelector(".bar");
-const menu = document.querySelector(".menu");
-bar.addEventListener("click", () => {
-  menu.classList.toggle("active");
-});*/
-
 // SCROLL VIEW
 window.addEventListener("scroll", () => {
   let content = document.querySelector(".first-scroll");
@@ -60,6 +54,25 @@ window.addEventListener("scroll", () => {
   }
 });
 
-window.addEventListener("scroll", () => {
-  menu.classList.remove("active");
-});
+document
+  .getElementById("contactForm")
+  .addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    // Get form values
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var subject = document.getElementById("subject").value;
+    var message = document.getElementById("message").value;
+
+    // Construct mailto URL
+    var mailtoLink =
+      "mailto:mathiasmichael2@gmail.com" +
+      "?subject=" +
+      encodeURIComponent(subject) +
+      "&body=" +
+      encodeURIComponent(message);
+
+    // Open default email client with mailto link
+    window.location.href = mailtoLink;
+  });
