@@ -231,11 +231,11 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
- /* flex-wrap: wrap;*/
+  flex-wrap: wrap;
 }
 
 .skills .child {
-  height: 130px;
+  height: 140px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 3px;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -421,6 +421,11 @@ footer .icon-container .icon-item i {
   .heading .menu li i {
     display: none;
   }
+  
+  .skills .child {
+width: 70%;
+  height: 140px;
+  }
 
   .services .container .item {
     width: 40%;
@@ -434,7 +439,7 @@ footer .icon-container .icon-item i {
 .fifth-scroll {
   opacity: 0;
   transform: scale(0.1);
-  transition: all 1s ease-in-out;
+  transition: all 0.9s ease-in-out;
 }
 
 .scroll {
