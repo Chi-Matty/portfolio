@@ -346,24 +346,34 @@ h4 {
   cursor: pointer;
 }
 
-.contact{
-width: 90%;
+.contact {
+  width: 90%;
 }
 
 .contact .contact-item .subtitle a:hover {
   background: #a88e8a;
 }
 
-::placeholder{
-font-size: 65%;
+::placeholder {
+  font-size: 65%;
 }
 
 .contact .contact-item {
   line-height: 1px;
 }
 
-form input{
+input {
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
 
+input[type="text"]:focus {
+  border-color: #007bff; /* Change border color on focus */
 }
 
 /* THE FOOTER */
