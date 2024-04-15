@@ -325,6 +325,8 @@ h4 {
   color: #000;
   font-size: 17px;
   font-weight: 700;
+  opacity: 0.7;
+  text-decoration: none;
 }
 
 .contact .contact-item .subtitle {
@@ -340,7 +342,12 @@ h4 {
   color: #000;
   font-size: 17px;
   font-weight: 700;
+  opacity: 0.7;
   cursor: pointer;
+}
+
+.contact{
+width: 90%;
 }
 
 .contact .contact-item .subtitle a:hover {
