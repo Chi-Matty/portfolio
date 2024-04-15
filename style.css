@@ -106,7 +106,7 @@ h4 {
   width: 57%;
   height: 57%;
   border: 1px solid #a88e8a;
-  border-radius: 15px;
+  border-radius: 15px 15px 0 0;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
