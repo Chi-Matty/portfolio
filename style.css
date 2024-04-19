@@ -251,8 +251,16 @@ h4 {
   opacity: 0.6;
 }
 
-.experience .parent .child{
+.experience .parent .child:nth-child(1){
 background: #FF7F50;
+}
+
+.experience .parent .child:nth-child(2){
+background: #7aff52;
+}
+
+.experience .parent .child:nth-child(3){
+background: #52d1ff;
 }
 
 /*THE SERVICES */
@@ -278,6 +286,8 @@ background: #FF7F50;
   color: #6c4f70;
   cursor: pointer;
 }
+
+
 
 /* THE PORTFOLIO */
 
