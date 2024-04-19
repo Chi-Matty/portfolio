@@ -277,6 +277,8 @@ h4 {
 }
 
 .services .container .item {
+  width: 90%;
+  height: 65%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
@@ -288,28 +290,24 @@ h4 {
 }
 
 .services .container .item:nth-child(1) {
-  background: linear-gradient(
-    90deg,
-    hsla(335, 91%, 70%, 1) 0%,
-    hsla(49, 89%, 61%, 1) 100%
-  );
+  background-image: url("https://dl.dropbox.com/scl/fi/h2qjchcu5r209ky3lefbr/services1.jpg?rlkey=q0pksvo0g69a50lcwtgx7xui6&dl=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .services .container .item:nth-child(2) {
-  background: linear-gradient(
-    90deg,
-    hsla(120, 93%, 84%, 1) 0%,
-    hsla(185, 90%, 51%, 1) 100%
-  );
+  background-image: url("https://dl.dropbox.com/scl/fi/035tyyyz46aerww2zq3yy/services2.jpg?rlkey=qrrrh8vzxr6idwwuegj1vf03m&dl=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .services .container .item:nth-child(3) {
-  background: linear-gradient(
-    90deg,
-    hsla(141, 81%, 87%, 1) 0%,
-    hsla(41, 88%, 75%, 1) 50%,
-    hsla(358, 82%, 71%, 1) 100%
-  );
+  background-image: url("https://dl.dropbox.com/scl/fi/zaojcyybifiyil8p4r2ba/services3.jpg?rlkey=odwythlpocvbj74wnk6jq4ijl&dl=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* THE PORTFOLIO */
