@@ -278,7 +278,7 @@ h4 {
 
 .services .container .item {
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 3px;
+  border-radius: 6px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -293,8 +293,6 @@ h4 {
     hsla(33, 100%, 53%, 1) 0%,
     hsla(58, 100%, 68%, 1) 100%
   );
-  box-shadow: 2px 2px 3px hsla(33, 100%, 53%, 1),
-    
 }
 
 .services .container .item:nth-child(2) {
