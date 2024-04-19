@@ -251,16 +251,16 @@ h4 {
   opacity: 0.6;
 }
 
-.experience .parent .child:nth-child(1){
-background: #FF7F50;
+.experience .parent .child:nth-child(1) {
+  background: #ff7f50;
 }
 
-.experience .parent .child:nth-child(2){
-background: #7aff52;
+.experience .parent .child:nth-child(2) {
+  background: #7aff52;
 }
 
-.experience .parent .child:nth-child(3){
-background: #52d1ff;
+.experience .parent .child:nth-child(3) {
+  background: #52d1ff;
 }
 
 /*THE SERVICES */
@@ -287,8 +287,30 @@ background: #52d1ff;
   cursor: pointer;
 }
 
-.services .container .item:nth-child(1){
-background: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+.services .container .item:nth-child(1) {
+  background: linear-gradient(
+    90deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(58, 100%, 68%, 1) 100%
+  );
+  box-shadow: 2px 2px 3px hsla(33, 100%, 53%, 1),
+    
+}
+
+.services .container .item:nth-child(2) {
+  background: linear-gradient(
+    90deg,
+    hsla(120, 93%, 84%, 1) 0%,
+    hsla(185, 90%, 51%, 1) 100%
+  );
+}
+
+.services .container .item:nth-child(3) {
+  background: linear-gradient(
+    90deg,
+    hsla(217, 100%, 50%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
 }
 
 /* THE PORTFOLIO */
