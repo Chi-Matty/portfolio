@@ -267,6 +267,7 @@ h4 {
 
 .services {
   width: 90%;
+  cursor: pointer;
 }
 
 .services .container {
@@ -277,16 +278,12 @@ h4 {
 }
 
 .services .container .item {
+  position: relative;
   width: 100%;
   height: 15rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-}
-
-.item .description {
-  color: #6c4f70;
-  cursor: pointer;
 }
 
 .services .container .item:nth-child(1) {
@@ -310,12 +307,17 @@ h4 {
   background-position: center;
 }
 
-.service .item .glass {
+.services .item .glass {
+  po
+  top: 70rem;
+  right: 0;
+  left: 0;
+  
   background: rgba(255, 255, 255, 0.24);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.1px);
-  
+  -webkit-backdrop-filter: blur(3.1px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
