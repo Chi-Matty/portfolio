@@ -277,8 +277,8 @@ h4 {
 }
 
 .services .container .item {
-  width: 90%;
-  height: 65%;
+  width: 100%;
+  height: 15rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
@@ -483,8 +483,7 @@ footer .icon-container .icon-item i {
   }
 
   .services .container .item {
-    width: 40%;
-    height: 30%;
+    height: 80vh;
   }
 }
 
