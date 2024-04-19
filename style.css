@@ -288,7 +288,11 @@ h4 {
 }
 
 .services .container .item:nth-child(1) {
-  background: linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    hsla(335, 91%, 70%, 1) 0%,
+    hsla(49, 89%, 61%, 1) 100%
+  );
 }
 
 .services .container .item:nth-child(2) {
@@ -300,7 +304,12 @@ h4 {
 }
 
 .services .container .item:nth-child(3) {
-  background: linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    hsla(141, 81%, 87%, 1) 0%,
+    hsla(41, 88%, 75%, 1) 50%,
+    hsla(358, 82%, 71%, 1) 100%
+  );
 }
 
 /* THE PORTFOLIO */
