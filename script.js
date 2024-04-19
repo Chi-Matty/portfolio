@@ -1,3 +1,27 @@
+//Self Typing
+const text = "I'm Michael";
+let index = 0;
+let timer;
+
+function typeWriter() {
+  if (index < text.length) {
+    document.getElementById("typed-text").innerHTML += text.charAt(index);
+    index++;
+    timer = setTimeout(typeWriter, 150); // Adjust typing speed (milliseconds)
+  } else {
+    clearTimeout(timer); // Stop typing
+    setTimeout(resetText, 2000); // Wait 2 seconds before resetting (milliseconds)
+  }
+}
+
+function resetText() {
+  document.getElementById("typed-text").innerHTML = ""; // Clear text
+  index = 0; // Reset index to start typing again
+  setTimeout(typeWriter, 1500); // Wait 1.5 seconds before starting again (milliseconds)
+}
+
+typeWriter(); // Start typing
+
 // SCROLL VIEW
 window.addEventListener("scroll", () => {
   let content = document.querySelector(".first-scroll");
