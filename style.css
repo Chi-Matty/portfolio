@@ -381,11 +381,11 @@ h4 {
 }
 
 .contact .contact-item .subtitle {
-  background: rgba(168, 142, 138, 0.2);
-  border: 1px solid rgba(168, 142, 138, 0.18);
-  border-radius: 4px;
-  backdrop-filter: blur(11px);
-  box-shadow: 2px 2px 5px rgba(168, 142, 138, 0.25);
+  background: rgba(244, 194, 194, 0.5);
+  border: 1px solid #F4C2C2;;
+  border-radius: 5px;
+  backdrop-filter: blur(1.9px);
+  box-shadow: 0 8px 32px rgba(244, 194, 194, 0.5);
   display: flex;
   align-items: center;
   width: 80%;
@@ -444,6 +444,7 @@ form button {
   height: 40px;
   border: 5px solid #CE2029;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 form button:hover{
