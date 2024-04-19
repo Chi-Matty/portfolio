@@ -287,7 +287,9 @@ background: #52d1ff;
   cursor: pointer;
 }
 
-
+.services .container .item:nth-child(1){
+background: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+}
 
 /* THE PORTFOLIO */
 
