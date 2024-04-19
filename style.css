@@ -26,7 +26,7 @@ h2,
 h3,
 h4 {
   /*color: #a88e8a;*/
-  color: #CE2029;
+  color: #ce2029;
 }
 
 /*.container .row {
@@ -322,9 +322,8 @@ h4 {
 }
 
 .services .container .item .glass h4 {
-  color: #8B0000;
+  color: #8b0000;
 }
-
 
 /* THE PORTFOLIO */
 
@@ -382,7 +381,7 @@ h4 {
 
 .contact .contact-item .subtitle {
   background: rgba(244, 194, 194, 0.5);
-  border: 1px solid #F4C2C2;;
+  border: 1px solid #f4c2c2;
   border-radius: 5px;
   backdrop-filter: blur(1.9px);
   box-shadow: 0 8px 32px rgba(244, 194, 194, 0.5);
@@ -439,16 +438,16 @@ textarea:focus {
 }
 
 form button {
-  background: #CE2029;
+  background: #ce2029;
   width: 200px;
   height: 40px;
-  border: 5px solid #CE2029;
+  border: 5px solid #ce2029;
   cursor: pointer;
   border-radius: 5px;
 }
 
-form button:hover{
-background: #C21E56;
+form button:hover {
+  background: #c21e56;
 }
 
 /* THE FOOTER */
@@ -464,11 +463,11 @@ footer .icon-container .icon-item {
   border: 1px solid rgba(168, 142, 138, 0.18);
   backdrop-filter: blur(10px);
   box-shadow: 2px 2px 5px rgba(168, 142, 138, 0.25); */
- border-radius: 50%;
+  border-radius: 50%;
   background-color: rgba(51, 51, 51, 0.5);
   box-shadow: 2px 2px 5px rgba(51, 51, 51, 0.5);
   border: 1px solid rgba(51, 51, 51, 0.3);
-  
+
   backdrop-filter: blur(10px);
   width: 40px;
   height: 40px;
@@ -512,14 +511,10 @@ footer .icon-container .icon-item i {
   .services .container .item {
     height: 80vh;
   }
-  
-  
 }
 
 .first-scroll,
-.second-scroll,
-.third-scroll,
-.fifth-scroll {
+.second-scroll {
   opacity: 0;
   transform: scale(0.1);
   transition: all 0.9s ease-in-out;
@@ -530,6 +525,7 @@ footer .icon-container .icon-item i {
   transform: scale(1);
 }
 
+.third-scroll,
 .fourth-scroll,
 .fifth-scroll {
   opacity: 0;
