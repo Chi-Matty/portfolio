@@ -439,10 +439,15 @@ textarea:focus {
 }
 
 form button {
-  background: #17A589;
+  background: #CE2029;
   width: 200px;
   height: 40px;
-  border: 5px solid #17A589;
+  border: 5px solid #CE2029;
+  cursor: pointer;
+}
+
+form button:hover{
+background: #C21E56;
 }
 
 /* THE FOOTER */
