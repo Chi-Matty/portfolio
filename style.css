@@ -129,122 +129,29 @@ h4 {
 }
 
 .my-skills {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 150px;
-  margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-.percent {
-  opacity: 0.52;
+.experience .parent{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
 }
 
-.size {
-  opacity: 0.5;
-  font-weight: 500;
-  margin-left: 3px;
+.experience .child{
+height: 130px;
+border: 1px solid rgba(0,0,0,0.1);
+border-radius: 3px;
+box-shadow: 1px 1px 2px rgba(0,0,0,.2);
 }
 
-.progress {
-  border: 1px solid #66ddaa;
-  width: 100%;
-  height: 7px;
-}
-
-.html {
-  border: none;
-  background: #66ddaa;
-  height: 5px;
-  width: 85%;
-}
-
-.css {
-  border: none;
-  background: #66ddaa;
-  height: 5px;
-  width: 79%;
-}
-
-.javascript {
-  border: none;
-  background: #66ddaa;
-  height: 5px;
-  width: 70%;
-}
-
-.bootstrap {
-  border: none;
-  background: #66ddaa;
-  height: 5px;
-  width: 68%;
-}
-
-.jquery {
-  border: none;
-  background: #66ddaa;
-  height: 5px;
-  width: 50%;
-}
-
-.react {
-  border: none;
-  background: #66ddaa;
-  height: 5px;
-  width: 50%;
-}
-
-.sql {
-  border: none;
-  background: #66ddaa;
-  height: 5px;
-  width: 60%;
-}
-
-.projectco {
-  border: none;
-  background: #66ddaa;
-  height: 5px;
-  width: 70%;
-}
-
-.timemanage {
-  border: none;
-  background: #66ddaa;
-  height: 5px;
-  width: 80%;
-}
-
-.communication {
-  border: none;
-  background: #66ddaa;
-  height: 5px;
-  width: 90%;
-}
-
-.teamwork {
-  border: none;
-  background: #66ddaa;
-  height: 5px;
-  width: 85%;
-}
-
-.skills .parent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.skills .child {
-  height: 140px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 3px;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-.skills .child span {
-  font-weight: 600;
-  color: #6c4f70;
+.experience .child span{
+font-weight: 600;
+color: #6C4F70;
 }
 
 .experience .child i {
