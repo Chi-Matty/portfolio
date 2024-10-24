@@ -136,7 +136,7 @@ h4 {
 }
 
 .my-skills .btn {
-  margin: 10px 5px;
+  margin: 10px 10px;
   padding: 10px 20px;
   font-size: 16px;
 }
@@ -398,7 +398,7 @@ footer .icon-container .icon-item i {
 
 @media screen and (max-width: 560px) {
   .my-skills .btn {
-    width: 45%;
+    width: 100%;
     font-size: 14px;
   }
 
