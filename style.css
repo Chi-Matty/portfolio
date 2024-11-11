@@ -47,6 +47,7 @@ h4 {
   left: 0;
   right: 0;
   z-index: 99;
+  cursor: pointer;
 }
 
 /*.bar,
@@ -70,6 +71,7 @@ h4 {
 
 .home {
   width: 90%;
+  cursor: pointer;
 }
 
 .home .logo {
@@ -138,6 +140,7 @@ h4 {
   margin: 10px 10px;
   padding: 10px 20px;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .experience .parent {
@@ -254,8 +257,9 @@ h4 {
   width: 47%;
   height: 270px;
   border-radius: 3px;
-  border: 1px solid black;
+  border: 1px solid transparent;
   margin: 20px auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .box .image-project {
@@ -267,8 +271,9 @@ h4 {
   width: 100%;
   height: 220px;
   object-fit: cover;
-  border-radius: 8px 8px 0 0;
+  border-radius: 3px;
   transition: 1s ease-out;
+  cursor: pointer;
 }
 
 .portfolio .container .box:hover img {
