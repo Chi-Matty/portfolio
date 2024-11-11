@@ -132,13 +132,12 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 10px;
 }
 
 .my-skills .btn {
   margin: 10px 10px;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .experience .parent {
@@ -255,6 +254,7 @@ h4 {
   width: 47%;
   height: 270px;
   border-radius: 3px;
+  border: 1px solid black;
   margin: 20px auto;
 }
 
@@ -404,7 +404,6 @@ footer .icon-container .icon-item i {
   
   .portfolio .container .box {
   width: 100%;
-  
 }
 
   .contact .contact-item .subtitle a {
