@@ -295,6 +295,7 @@ h4 {
   font-weight: 700;
   opacity: 0.7;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .contact .contact-item .subtitle {
@@ -406,10 +407,10 @@ footer .icon-container .icon-item i {
     width: 100%;
     font-size: 12px;
   }
-  
+
   .portfolio .container .box {
-  width: 100%;
-}
+    width: 100%;
+  }
 
   .contact .contact-item .subtitle a {
     font-size: 12px;
@@ -434,16 +435,15 @@ footer .icon-container .icon-item i {
   .heading .menu li i {
     display: none;
   }
-  
-     .my-skills .btn {
-       /* width: 30%; */
-    }
+
+  .my-skills .btn {
+    /* width: 30%; */
+  }
 
   .services .container .item {
     height: 80vh;
   }
 }
-
 
 .second-scroll {
   opacity: 0;
