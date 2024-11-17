@@ -32,7 +32,7 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 
 ## Live Demo
 
-`Check out the live version of my portfolio: [https://mattyf.glitch.me]`
+Check out the live version of my portfolio: [Live Demo](https://mattyf.glitch.me)
 
 ## Contact
 
