@@ -78,6 +78,17 @@ window.addEventListener("scroll", () => {
   }
 });
 
+window.addEventListener("scroll", () => {
+  let content = document.querySelector(".last-scroll");
+  let contentPosition = content.getBoundingClientRect().top;
+  let contentScreen = window.innerHeight / 0.9;
+  if (contentPosition < contentScreen) {
+    content.classList.add("left-scroll");
+  } else {
+    content.classList.remove("left-scroll");
+  }
+});
+
 document
   .getElementById("contactForm")
   .addEventListener("submit", function (event) {
