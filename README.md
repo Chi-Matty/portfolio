@@ -1,22 +1,39 @@
-# Hello Website (blank)
+# Portfolio Website
 
-This is a basic static HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen 🪄 immediately in the preview window. You can upload assets like images or audio in `assets` to the left. The rest is up to you and your imagination.
+Welcome to my portfolio website! This project showcases my skills, projects, and services as a front-end web developer.
 
-## What's in this project?
+## Features
 
-← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
+← `Responsive Design`: Optimized for all devices, from mobile to desktop.
 
-← `index.html`: This is the main HTML page for your site.
+← `Modern UI/UX`: Clean, professional, and minimalistic design.
 
-← `style.css`: CSS files add styling rules to your content.
-
-← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript.
+← `Interactive Sections`: CSS files add styling rules to your content.
 
 ![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 
-## You built this with Glitch!
+## Technologies Used
 
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
+- HTML5: Semantic and accessible structure.
+- CSS3: Styled with modern techniques, including Flexbox and Grid.
+- JavaScript: Added interactivity and dynamic features.
+- Bootstrap: For responsive layout and pre-designed components.
+- Glitch IDE
 
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
+## Key Sections
+
+- Home: A welcoming introduction and overview.
+- About Me: Highlights of my background and expertise.
+- Skills: A showcase of my technical and soft skills.
+- Services: Description of the services I offer.
+- Portfolio: Examples of projects I’ve completed.
+- Experience: My professional journey and achievements.
+- Contact: A form and links to reach me.
+
+## Live Demo
+
+Check out the live version of my portfolio: [Live Demo](https://mattyf.glitch.me)
+
+## Contact
+
+Feel free to reach out if you have any questions or want to collaborate!
