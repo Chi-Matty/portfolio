@@ -38,17 +38,16 @@ h4 {
   box-sizing: border-box;
   width: 100vw;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 99;
+  z-index: 99;*/
   cursor: pointer;
 }
-
 /*.bar,
 .close {
   display: none;
@@ -59,18 +58,22 @@ h4 {
   color: #000;
   font-size: 12px;
   text-decoration: none;
-}
-
-.heading .menu li a:hover {
-  background: #a88e8a;
-  color: #fff;
 }*/
+
+.heading li a:hover {
+  color: #ff4d4d;
+  font-weight: 700;
+}
 
 /* THE LOGO & HOME */
 
 .home {
   width: 90%;
   cursor: pointer;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .home .logo {
@@ -80,8 +83,8 @@ h4 {
 }
 
 .logo .image {
-  width: 150px; /* Set a specific width */
-  height: 150px; /* Set a specific height */
+  width: 200px; /* Set a specific width */
+  height: 200px; /* Set a specific height */
   border-radius: 50%; /* Circle shape */
   border: 5px solid #ff4d4d; /* Light border to match your theme */
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
@@ -102,6 +105,15 @@ h4 {
   cursor: pointer;
 }
 
+.title {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 900;
+}
+
+.subtitle {
+  font-size: clamp(1rem, 2.5vw, 2rem);
+}
+
 .description {
   font-size: 14px;
 }
@@ -110,6 +122,7 @@ h4 {
 
 .about {
   width: 90%;
+  min-height: 100vh;
 }
 
 .about .about-image {
@@ -522,7 +535,16 @@ footer .icon-container .icon-item i {
 /* FOR BIGGER SCREEN VIEW */
 
 @media screen and (min-width: 560px) {
-  .heading .menu ul {
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar-brand {
+    padding-left: 15px;
+  }
+
+  /*.heading .menu ul {
     margin: 10px 0;
   }
 
@@ -532,6 +554,11 @@ footer .icon-container .icon-item i {
 
   .heading .menu li i {
     display: none;
+  }*/
+
+  .logo .image {
+    width: 250px;
+    height: 250px;
   }
 
   .my-skills .btn {
