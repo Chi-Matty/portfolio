@@ -147,6 +147,8 @@ font-size: 13px;
 }
 
 .analysis-web .container .analysis {
+  height: 55px;
+  text-align: center;
   background-color: #1E90FF;
   color: white;
   padding: 12px 24px;
@@ -163,6 +165,8 @@ font-size: 13px;
 }
 
 .analysis-web .container .web {
+  height: 55px;
+  text-align: center;
   background-color: transparent;
   color: #1E90FF;
   padding: 12px 24px;
@@ -479,22 +483,21 @@ margin-left: 50px;
     padding-left: 15px;
   }
 
-  /*.heading .menu ul {
-    margin: 10px 0;
-  }
-
-  .heading .menu ul li {
-    display: inline;
-  }
-
-  .heading .menu li i {
-    display: none;
-  }*/
-
   .logo .image {
     width: 250px;
     height: 250px;
   }
+  .analysis-web .container{
+display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+  .analysis-web .analysis,
+  .analysis-web .web{
+    width: 45%;
+  }
+  
 }
 
 .second-scroll {

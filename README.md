@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Welcome to my portfolio website! This project showcases my skills, projects, and services as a front-end web developer.
+Welcome to my portfolio website! This project showcases my skills, projects, and services as a data analyst and a front-end web developer.
 
 ## Features
 
