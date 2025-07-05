@@ -122,14 +122,14 @@ section {
 }
 
 .services .container .item:nth-child(4) {
-  background-image: url("https://dl.dropbox.com/scl/fi/rql2vrhm6jhdtj10jm4tx/Services-2.png?rlkey=ksde4twkqyh8ec81gmx1ri6zn&dl=0");
+  background-image: url("https://dl.dropbox.com/scl/fi/mbphzojd6dygm4erciv3r/Servic.jpg?rlkey=vn5lnk2439nh3a2l8xxn2zjas&st=dno4ahjl&dl=0");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .services .container .item:nth-child(5) {
-  background-image: url("https://dl.dropbox.com/scl/fi/8x8qxo33hy6q28eprja1a/Services-1.png?rlkey=cpr5h1dc9omjyldfun1du5mdi&dl=0");
+  background-image: url("https://dl.dropbox.com/scl/fi/018wngbpxpep2u02y51ov/Servic-2.jpg?rlkey=otmyseqjkj8ajxurwebjmq68z&st=ydrjsw7r&dl=0");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -137,6 +137,13 @@ section {
 
 .services .container .item:nth-child(6) {
   background-image: url("https://dl.dropbox.com/scl/fi/o40q4wmb7nbrbuy8cb9uk/services4.jpg?rlkey=yaymt0n4q2pi2fxwsgn43rzqy&dl=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.services .container .item:nth-child(6) {
+  background-image: url("https://dl.dropbox.com/scl/fi/rql2vrhm6jhdtj10jm4tx/Services-2.png?rlkey=ksde4twkqyh8ec81gmx1ri6zn&st=xekv4llw&dl=0");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
