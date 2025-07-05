@@ -163,26 +163,25 @@ portfolio .container .box:hover img {
 }
 
 .tags {
-  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 15px;
 }
 
 .tags span {
   background-color: #1E90FF;
   color: white;
-  font-size: 0.75rem;
-  padding: 0.4rem 0.7rem;
-  margin: 0.25rem;
-  border-radius: 12px;
-  display: inline-block;
+  font-size: 0.8rem;
+  padding: 6px 14px;
+  border-radius: 10px;
+  white-space: nowrap;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  cursor: default;
 }
 
 .tags span:hover {
   background-color: #1C86EE;
-  transform: scale(1.05);
+  transform: scale(1.04);
 }
 
 /* THE FOOTER */
