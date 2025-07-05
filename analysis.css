@@ -170,7 +170,7 @@ portfolio .container .box:hover img {
 }
 
 .tags span {
-  background-color: #1E90FF;
+  background-color: #4682B4; /*#1E90FF;*/
   color: white;
   margin: 5px;
   padding: 10px 20px;
@@ -185,7 +185,7 @@ portfolio .container .box:hover img {
 }
 
 .tags span:hover {
-  background-color: #1C86EE;
+  background-color: #3A6F99; /*#1C86EE;*/
   transform: scale(1.04);
 }
 
