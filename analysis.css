@@ -162,6 +162,12 @@ portfolio .container .box:hover img {
   margin-top: 0.5rem;
 }
 
+.tags {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .tags span {
   background-color: #1E90FF;
   color: white;
