@@ -19,6 +19,7 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 - JavaScript: Added interactivity and dynamic features.
 - Bootstrap: For responsive layout and pre-designed components.
 - Glitch IDE
+- GitHub IDE
 
 ## Key Sections
 
