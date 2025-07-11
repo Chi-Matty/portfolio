@@ -124,7 +124,7 @@ h4 {
   cursor: pointer;
 }
 
-portfolio .container .box:hover img {
+.portfolio .container .box:hover img {
   transform: scale(1.05);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -140,13 +140,14 @@ portfolio .container .box:hover img {
 }
 
 .portfolio .container .description span {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   display: block;
 }
 
 .portfolio .container .description p {
-  font-size: 12px;
+  font-size: clamp(0.8rem, 1vw, 1rem);
+  line-height: 1.5;
   color: #444444;
   margin-top: 0.5rem;
 }
