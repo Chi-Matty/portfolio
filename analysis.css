@@ -87,8 +87,8 @@ h4 {
 }
 
 .portfolio .container .box {
- /* flex: 0 1 calc(50% - 10px); */
-  flex: 1 1 45%;
+  flex: 0 1 calc(50% - 10px);
+
   max-width: 48%;
   min-width: 250px; /* Prevents boxes from getting too narrow */
   height: auto; /* Dynamic height for varying content */
