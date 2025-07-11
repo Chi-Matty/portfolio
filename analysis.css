@@ -87,7 +87,9 @@ h4 {
 }
 
 .portfolio .container .box {
-  flex: 0 1 calc(50% - 10px); /* Two columns, accounts for 20px gap */
+ /* flex: 0 1 calc(50% - 10px); */
+  flex: 1 1 45%;
+  max-width: 48%;
   min-width: 250px; /* Prevents boxes from getting too narrow */
   height: auto; /* Dynamic height for varying content */
   min-height: 220px; /* Maintains minimum size */
@@ -135,7 +137,7 @@ h4 {
   cursor: pointer;
 }
 
-portfolio .container .box:hover img {
+.portfolio .container .box:hover img {
   transform: scale(1.05);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -151,13 +153,14 @@ portfolio .container .box:hover img {
 }
 
 .portfolio .container .description span {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   display: block;
 }
 
 .portfolio .container .description p {
-  font-size: 12px;
+  font-size: clamp(0.8rem, 1vw, 1rem);
+  line-height: 1.5;
   color: #444444;
   margin-top: 0.5rem;
 }
@@ -195,6 +198,22 @@ portfolio .container .box:hover img {
   background: rgba(169, 191, 209, 0.3);
   transform: scale(1.03);
   cursor: default;
+}
+
+.btn-view {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 14px;
+  background: #191970;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+  font-weight: 500;
+}
+.btn-view:hover {
+  background: #1c86ee;
+  text-decoration: none;
 }
 
 /* THE FOOTER */
