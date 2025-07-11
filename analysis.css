@@ -252,11 +252,12 @@ footer .icon-container .icon-item i {
 
 @media screen and (max-width: 560px) {
   section {
-   /* width: 98%;*/
+    width: 98%;
   }
   .portfolio .container .box {
-    flex: 0 1 100%;
+    width: 100%;
   }
+  
 }
 
 /* FOR BIGGER SCREEN VIEW */
