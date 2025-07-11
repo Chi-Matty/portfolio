@@ -270,9 +270,5 @@ footer .icon-container .icon-item i {
   .navbar-brand {
     padding-left: 15px;
   }
-  
-  .portfolio .container .box {
-    flex: 0 1 100%;
-  }
 
 }
