@@ -186,6 +186,36 @@ portfolio .container .box:hover img {
   cursor: default;
 }
 
+footer {
+  background: #ffffff;
+  border-top: 1px solid transparent;
+  box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer .icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .icon-container .icon-item {
+  border-radius: 50%;
+  background-color: rgba(30, 144, 255, 0.6);
+  box-shadow: 2px 2px 5px rgba(30, 144, 255, 0.6);
+  border: 1px solid rgba(30, 144, 255, 0.6);
+  backdrop-filter: blur(10px);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .icon-container .icon-item i {
+  color: #555555;
+}
+
 /*FOR MOBILE VIEW*/
 
 @media screen and (max-width: 560px) {
