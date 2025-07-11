@@ -187,6 +187,29 @@ h4 {
   cursor: default;
 }
 
+.btn-view {
+  display: block;
+  width: 90%;              /* almost full width */
+  max-width: 300px;        /* optional max width to keep it neat on bigger screens */
+  margin: 12px auto 0;     /* centered with auto left/right margins */
+  padding: 8px 14px;
+  background: #191970;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-view:hover {
+  background: #1c86ee;
+  cursor: pointer;
+}
+
+
+
 footer {
   background: #ffffff;
   border-top: 1px solid transparent;
