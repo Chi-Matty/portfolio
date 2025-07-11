@@ -87,9 +87,7 @@ h4 {
 }
 
 .portfolio .container .box {
-  flex: 0 1 calc(50% - 10px);
-
-  max-width: 48%;
+  flex: 0 1 calc(50% - 10px); /* Two columns, accounts for 20px gap */
   min-width: 250px; /* Prevents boxes from getting too narrow */
   height: auto; /* Dynamic height for varying content */
   min-height: 220px; /* Maintains minimum size */
@@ -100,17 +98,6 @@ h4 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column; /* Stack image and description vertically */
-
-  /*width: 47%;
-  height: 350px;
-  min-height: 220px;
-  border-radius: 3px;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  padding: 2px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: flex;
-  flex-direction: column; Stack image and description vertically */
 }
 
 .portfolio .container .box:hover {
@@ -137,7 +124,7 @@ h4 {
   cursor: pointer;
 }
 
-.portfolio .container .box:hover img {
+portfolio .container .box:hover img {
   transform: scale(1.05);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -153,14 +140,13 @@ h4 {
 }
 
 .portfolio .container .description span {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   display: block;
 }
 
 .portfolio .container .description p {
-  font-size: clamp(0.8rem, 1vw, 1rem);
-  line-height: 1.5;
+  font-size: 12px;
   color: #444444;
   margin-top: 0.5rem;
 }
@@ -200,64 +186,15 @@ h4 {
   cursor: default;
 }
 
-.btn-view {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 6px 14px;
-  background: #191970;
-  color: #fff;
-  font-size: 12px;
-  border-radius: 4px;
-  transition: background 0.3s ease;
-  font-weight: 500;
-}
-.btn-view:hover {
-  background: #1c86ee;
-  text-decoration: none;
-}
-
-/* THE FOOTER */
-
-footer {
-  background: #ffffff;
-  border-top: 1px solid transparent;
-  box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
-}
-
-footer .icon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer .icon-container .icon-item {
-  border-radius: 50%;
-  background-color: rgba(30, 144, 255, 0.6);
-  box-shadow: 2px 2px 5px rgba(30, 144, 255, 0.6);
-  border: 1px solid rgba(30, 144, 255, 0.6);
-  backdrop-filter: blur(10px);
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer .icon-container .icon-item i {
-  color: #555555;
-}
-
 /*FOR MOBILE VIEW*/
 
 @media screen and (max-width: 560px) {
   section {
-    width: 98%;
+   /* width: 98%;*/
   }
   .portfolio .container .box {
-    width: 100%;
+    flex: 0 1 100%;
   }
-  
 }
 
 /* FOR BIGGER SCREEN VIEW */
