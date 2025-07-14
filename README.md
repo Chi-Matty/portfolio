@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Welcome to my portfolio website! This project showcases my skills, projects, and services as a data analyst and a front-end web developer.
+Welcome to my portfolio website! This project showcases my skills, projects, and services as a data analyst, Python automation specialist and a front-end web developer.
 
 ## Features
 
@@ -20,6 +20,7 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 - Bootstrap: For responsive layout and pre-designed components.
 - Glitch IDE
 - GitHub IDE
+- Netlify Hoist
 
 ## Key Sections
 
@@ -33,8 +34,10 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 
 ## Live Demo
 
-Check out the live version of my portfolio: [Live Demo](https://mattyf.glitch.me)
+Check out the live version of my portfolio: [Live Demo](https://chimatty.netlify.app)
 
 ## Contact
 
 Feel free to reach out if you have any questions or want to collaborate!
+📧 [Email](mathiasmichael2@gmail.com)
+
