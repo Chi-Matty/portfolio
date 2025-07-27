@@ -109,6 +109,7 @@ section {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
   object-fit: cover; /* Ensures the image fills the circle without distortion */
   transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+  cursor: pointer;
 }
 
 .logo .image:hover {
@@ -219,6 +220,7 @@ background-color: #1C86EE;
   object-fit: cover;
   border-radius: 15px;
   transition: transform 0.3s ease-out;
+  cursor: pointer;
 }
 
 .about .about-image:hover img {
@@ -244,6 +246,7 @@ background-color: #1C86EE;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .btn-outline-success {
@@ -252,6 +255,7 @@ background-color: #1C86EE;
   color: #6c757d; /* Default text color */
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out; /* Smooth transition */
+  cursor: pointer;
 }
 
 .btn-outline-success:hover {
