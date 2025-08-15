@@ -525,6 +525,18 @@ textarea:focus {
   border-color: #bbb; /* Change border color on focus */
 }
 
+@keyframes swing {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-2px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
 form button {
   background: #1E90FF;
   width: 200px;
@@ -532,6 +544,7 @@ form button {
   border: 1px solid transparent;
   cursor: pointer;
   border-radius: 3px;
+  animation: swing 2.2s infinite;
 }
 
 form button:hover {
