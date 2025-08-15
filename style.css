@@ -376,6 +376,7 @@ background-color: #1C86EE;
   text-decoration: none;
   transition: background 0.3s ease;
   cursor: pointer;
+  animation: bounce 5s infinite;
 }
 
 .btn-view:hover {
