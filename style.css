@@ -582,7 +582,7 @@ footer .icon-container .icon-item i {
   }
 
   .portfolio .container .box {
-    width: 100%;
+    flex: 0 1 100%;
   }
 
   .contact .contact-item {
