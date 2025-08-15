@@ -148,22 +148,17 @@ font-size: 13px;
   cursor: pointer;
 }
 
-.analysis-web .container .analysis {
-  height: 55px;
-  text-align: center;
-  background-color: #1E90FF;
-  color: white;
-  padding: 12px 24px;
-  margin: 10px auto;
-  border: 2px solid #1E90FF;
-  border-radius: 8px;
-  font-weight: 900;
-  font-size: 13px;
-  text-transform: uppercase;
-  transition: background 0.3s;
-  cursor: pointer;
-  text-decoration: none;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+/* Add this to your CSS */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-7px);
+  }
 }
 
 .analysis-web .container .web {
@@ -182,13 +177,7 @@ font-size: 13px;
   cursor: pointer;
   text-decoration: none;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.analysis-web .analysis:hover{
-  background-color: #1C86EE;
-  border-color: #1C86EE;
-  transform: translateY(-2px);
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  animation: bounce 2s infinite;
 }
 
 .analysis-web .web:hover{
