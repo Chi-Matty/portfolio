@@ -37,6 +37,7 @@ h4 {
 nav .mylogo {
   color: #191970;
   font-weight: 600;
+  cursor: pointer;
 }
 
 nav .mylogo:hover {
